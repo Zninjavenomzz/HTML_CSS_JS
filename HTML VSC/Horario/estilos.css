@@ -1,0 +1,80 @@
+*{
+    font-family: 'Dela Gothic One', cursive;
+}
+
+
+body{
+    background-color: rgb(33, 33, 33);
+    color:rgb(226, 226, 226);
+}
+
+
+div{
+    text-align: center;
+    color:rgb(0, 161, 108);
+    font-size:100px;
+    text-shadow: rgb(1, 77, 60) 5px 0px 0px;
+    text-decoration: 8px underline dashed rgb(0, 161, 108);
+    font-family: 'Pixelify Sans', cursive;
+}
+
+
+table, td, th{
+    margin:auto;
+    text-align: center;
+    border-collapse: collapse;
+    padding:20px;
+    border-radius: 5px;
+}
+
+.ED{
+    background-color: rgb(40, 133, 133);
+    border: black solid 2px;
+}
+
+.PG{
+    background-color: rgb(27, 90, 51);
+    border: black solid 2px;
+}
+
+.BD{
+    background-color:rgb(110, 35, 35);
+    border: black solid 2px;
+}
+
+.LM{
+    background-color:rgb(109, 104, 30);
+    border: black solid 2px;
+}
+
+.SI{
+    background-color:rgb(79, 34, 85);
+    border: black solid 2px;
+}
+
+.FOL{
+    background-color: rgb(27, 38, 61);
+    border: black solid 2px;
+}
+
+.recreo{
+    background-color: rgb(44, 38, 29);
+    border: black solid 2px;
+}
+
+.dias{
+    background-color: rgb(29, 44, 40);
+    border: black solid 2px;
+}
+
+.horas {
+    color:rgb(33, 33, 33);
+    background-color: rgb(201, 201, 201);
+    border: black solid 2px;
+}
+
+.hora {
+    background-color: rgb(27, 27, 27);
+    border: black solid 2px;
+}
+

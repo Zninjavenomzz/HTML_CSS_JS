@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(243, 243, 243);
+    color:rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    color:rgb(236, 236, 236);
+    text-decoration: none;
+    font-size: 50px;
+    font-family: Impact;
+    text-transform: capitalize;
+    background-color: red;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:50px;
+    padding-right:50px;
+    border-radius: 30px;
+    border-color: black;
+    
+
+}
+
+.ej{
+
+    font-family: Verdana;
+    font-size:100px;
+    font-variant:small-caps ;
+    color:rgba(31, 44, 37, 0.849);
+    background-color:rgb(60, 179, 113);
+    padding: 20px;
+    padding-left: 40px;
+    width: 200px;
+    border-radius: 2px;
+    box-shadow: 5px 5px 0px 10px;
+    
+}
+
+#img1{
+    display: block;
+    margin: auto;
+    width:300px;
+}
+
+.square{
+
+    background-color: rgba(0, 0, 0, 0.445);
+    color:rgba(0, 0, 0, 0.493);
+    height:180px;
+    width:272px;
+    margin-left:300px;
+    margin-bottom:50px;
+    margin-top:50px;
+    border-radius: 5px;
+    box-shadow: 3px 0px 10px 5px;
+}
+
+div{
+    background-color: brown;
+    width:15vw;
+    height:5vh;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+h2{
+    margin-left: 10px;
+
+}

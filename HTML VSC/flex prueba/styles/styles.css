@@ -1,0 +1,57 @@
+.cabecera{
+    display:flex;
+    background-color: antiquewhite;
+    justify-content: space-around;
+}
+
+img{
+    width: 75px;
+    height: 75px;
+}
+
+.ppal{
+    display:flex;
+    justify-content: center;
+    background-color: blueviolet;
+    width: 1;
+}
+
+.izq{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.central{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.der{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.hijoizq{
+/*     width: 100px; */
+    height: 100px;
+    background-color: aqua;
+    border: 1px black solid;
+    margin:5px;
+}
+.hijocentral{
+ /*    width: 500px; */
+    height: 210px;
+    background-color: aqua;
+    border: 1px black solid;
+    margin:5px;
+}
+.hijoder{
+ /*    width: 100px; */
+    height: 100px;
+    background-color: aqua;
+    border: 1px black solid;
+    margin:5px;
+}
