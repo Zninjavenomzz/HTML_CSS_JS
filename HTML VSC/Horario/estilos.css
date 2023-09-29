@@ -3,17 +3,25 @@
 }
 
 
-body{
-    background-color: rgb(33, 33, 33);
-    color:rgb(226, 226, 226);
+body{    
+    color: rgb(226, 226, 226);
 }
 
+.seccion_1 {
+    background-image: url("/Images/blackwallpaper.jpg"); 
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+  }
 
 div{
     text-align: center;
     color:rgb(0, 161, 108);
-    font-size:100px;
-    text-shadow: rgb(1, 77, 60) 5px 0px 0px;
+    font-size:80px;
+    text-shadow: rgb(240, 240, 240) 4px 0px 0px;
     text-decoration: 8px underline dashed rgb(0, 161, 108);
     font-family: 'Pixelify Sans', cursive;
 }
@@ -28,42 +36,43 @@ table, td, th{
 }
 
 .ED{
-    background-color: rgb(40, 133, 133);
+    background: linear-gradient(60deg, #204550,  #2e6274, #509ab3, #75dbfd);
     border: black solid 2px;
 }
 
 .PG{
-    background-color: rgb(27, 90, 51);
+    background: linear-gradient(60deg,rgb(15, 82, 47), rgb(26, 116, 69), rgb(23, 121, 70),rgb(39, 172, 103));
     border: black solid 2px;
 }
 
 .BD{
-    background-color:rgb(110, 35, 35);
+    background: linear-gradient(60deg, #4e1818,  #6e2323, #ad3333, #ce4848);
     border: black solid 2px;
 }
 
 .LM{
-    background-color:rgb(109, 104, 30);
+    background: linear-gradient(60deg, #6d681e,  #99911e, #b6ad34, #e4da55);
     border: black solid 2px;
 }
 
 .SI{
-    background-color:rgb(79, 34, 85);
+    background: linear-gradient(60deg, #4f2255,  #71267a, #873592, #d266e0);
     border: black solid 2px;
 }
 
 .FOL{
-    background-color: rgb(27, 38, 61);
+    background: linear-gradient(60deg, #1b263d,  #263c6d, #2853ad, #5986e9);
+    background-color: #1b263d;
     border: black solid 2px;
 }
 
 .recreo{
-    background-color: rgb(44, 38, 29);
+    background-color: #2c261d;
     border: black solid 2px;
 }
 
 .dias{
-    background-color: rgb(29, 44, 40);
+    background-color: #1d2c28;
     border: black solid 2px;
 }
 
