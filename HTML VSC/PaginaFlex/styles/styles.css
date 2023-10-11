@@ -1,0 +1,86 @@
+body{
+  background-color: rgb(235, 235, 235);   
+
+}
+.contenedora{
+    padding: 20px;
+    display:flex;
+    background-color: blue;
+  
+}
+
+.contenedorb{
+    padding: 20px;
+    display:flex;
+    background-color: rgb(255, 0, 0);
+  
+}
+
+.navegacion{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 162, 255);  
+    margin-top:20px;
+    margin-bottom:20px;
+    border-radius:3px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(15, 15, 15);
+    font-size: 70px;
+    background-color: white;
+    border-radius:5px;
+}
+
+
+.barralateral{
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    width:12vw;
+    height: 100vh;
+    background-color: rgb(118, 255, 91);   
+    margin-left:-20px;
+    border-radius:5px; 
+}
+
+
+.contenidoprincipal{
+    border:solid rgb(236, 236, 236) 2px;
+    border-radius: 5px;
+    margin-left: 20px;
+    width:25vw;
+    height: 40vh;
+    background-color: rgb(189, 68, 68);   
+}
+
+
+.contenidosecundario{
+    border:solid rgb(236, 236, 236) 2px;
+    border-radius: 5px;
+    margin-left: 20px;
+    width:25vw;
+    height: 40vh;
+    background-color: rgb(255, 253, 129);   
+}
+
+
+.contentsec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 2px;
+    background-color: rgb(80, 61, 255);
+    background-color: white;
+    color:#503dff;
+    padding: 5px;
+    font-weight: bolder;
+    font-size: large;
+} 
