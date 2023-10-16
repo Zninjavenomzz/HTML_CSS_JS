@@ -1,0 +1,138 @@
+*{
+    margin:0;
+}
+body{
+    background-color: rgb(49, 44, 37);
+}
+
+header{
+
+    font-family: 'Monoton', sans-serif;
+    font-size: 8vh;
+    letter-spacing: 2vh;
+    color:#F4EEA9;
+    text-shadow: #F4EEA9 0px 0px 5px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color:#064635;
+    height: 11vh;    
+}
+
+.contenedora{
+    display:flex;
+}
+
+.interna{
+    margin: 20px;
+    
+}
+
+.navegacion{
+    height: 84vh;
+    width: 15vw;
+    background-color: #519259;
+
+    display: flex;
+    flex-direction: column;  
+    box-shadow: rgb(0, 0, 0) 0px 0px 5px 1px;     
+}
+.barranav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 8vh;
+    width: 14vw;
+    background-color: #F0BB62;
+    box-shadow: #000000 0px 0px 5px 0px; 
+    margin-bottom: 4vh; 
+
+    font-family: 'Josefin Slab', serif;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.contnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 6vh;
+    width: 12vw;
+    margin-left:2vh;
+    margin-top:3vh;
+    border-radius: 1px;
+    background-color: #519259 ;
+    box-shadow: #F4EEA9 0px 0px 0px 3px;  
+
+    font-family: 'Josefin Slab', serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color:#F4EEA9;
+}
+
+
+.contenidoprincipal{
+    height: 84vh;
+    width: 75vw;
+    background-color: #2e2920;
+    display:flex;
+    flex-wrap: wrap;
+    margin:0;
+   
+   }
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 25vw;
+    height: 57vh;
+    background-color: #F0BB62;
+    box-shadow: rgb(0, 0, 0) 0px 0px 5px 1px;   
+}
+
+.cont4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    height: 27vh;
+    background-color: #F0BB62;
+    padding: 0px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 5px 1px;
+}
+
+.contenidosec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    height: 84vh;
+    width: 10vw;
+    background-color: #F0BB62;  
+    box-shadow: rgb(0, 0, 0) 0px 0px 5px 1px;      
+}
+.contsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 10vw;
+    height: 50vh;
+    background-color: #519259;  
+    box-shadow: rgb(0, 0, 0) 0px 0px 2px 1px;      
+}
+
+footer{
+    height: 5vh;
+    background-color:#F4EEA9 ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #000000
+}
